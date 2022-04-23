@@ -6,9 +6,9 @@ def open_get_top(context):
     context.app.main_page.open_get_top()
 
 
-@When('Hover over the mouse to {btn_name}.')
-def hover_to_iphone(context, btn_name):
-    context.app.header.hover_over_to_iphone_btn(btn_name)
+@When('Hover over the mouse to {button_name}.')
+def hover_to_iphone(context, button_name):
+    context.app.header.hover_over_to_iphone(button_name)
 
 
 @When('Hover the mouse to {product_name} button and click on it.')
