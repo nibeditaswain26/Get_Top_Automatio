@@ -11,9 +11,9 @@ def hover_to_iphone(context, btn_name):
     context.app.header.hover_over_to_iphone_btn(btn_name)
 
 
-@When('Hover the mouse to "iphone 12" button and click on it.')
-def click_on_iphone_12(context):
-    context.app.drop_down_field.click_on_iphone_12()
+@When('Hover the mouse to {product_name} button and click on it.')
+def click_on_iphone_12(context, product_name):
+    context.app.drop_down_field.click_on_iphone_12(product_name)
 
 
 @Then('Verify user goes to the page of the {product_page}.')
