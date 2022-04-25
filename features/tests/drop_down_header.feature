@@ -9,10 +9,8 @@ Feature: Test  for dropdown feature.
     Then Verify user goes to the page of the <iphone 12>.
 
 
-"""
   Scenario: User can go to the selected page after click on the "Accessories" button.
     Given Open Get top
     When Hover over the mouse to <ACCESSORIES>.
     And Hover the mouse to <Cases&Protection> button and click on it.
     Then Verify user goes to the page of the <Cases&Protection>.
-   """

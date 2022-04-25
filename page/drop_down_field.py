@@ -6,12 +6,16 @@ from page.base_page import Page
 
 class DropDown(Page):
     iphone_12 = (By.ID, 'menu-item-484')
+    case_protection = (By.ID, 'menu-item-485')
 
-    def click_on_iphone_12(self, product_name):
-        self.wait.until(EC.visibility_of_element_located(self.iphone_12), message=f'{product_name} is not found.')
-        iphone_12_btn = self.driver.find_element(*self.iphone_12)
+    def click_on_drop_down_btn(self, product_name):
+
+        iphone_12_btn = self.driver.find_element(*self.case_protection)
         actions = ActionChains(self.driver)
         actions.move_to_element(iphone_12_btn)
         actions.click(iphone_12_btn)
+        self.wait.until(EC.visibility_of_element_located(self.case_protection), message=f'{product_name} is not found.')
         actions.perform()
+
+
 
