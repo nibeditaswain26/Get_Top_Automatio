@@ -12,10 +12,10 @@ class Header(Page):
 
     def hover_over_to_header_btn(self, button_name):
 
-        btn_name = self.driver.find_element(*self.ACCESSORIES_BTN)
+        btn_name = self.driver.find_element(*self.IPHONE_BTN)
         actions = ActionChains(self.driver)
         actions.move_to_element(btn_name)
-        self.wait.until(EC.presence_of_element_located(self.ACCESSORIES_DROP_DOWN), message=f'{button_name} not found.')
+        self.wait.until(EC.presence_of_element_located(self.IPHONE_DROP_DOWN), message=f'{button_name} not found.')
         actions.perform()
 
 

@@ -10,11 +10,11 @@ class DropDown(Page):
 
     def click_on_drop_down_btn(self, product_name):
 
-        iphone_12_btn = self.driver.find_element(*self.case_protection)
+        iphone_12_btn = self.driver.find_element(*self.iphone_12)
         actions = ActionChains(self.driver)
         actions.move_to_element(iphone_12_btn)
         actions.click(iphone_12_btn)
-        self.wait.until(EC.visibility_of_element_located(self.case_protection), message=f'{product_name} is not found.')
+        self.wait.until(EC.visibility_of_element_located(self.iphone_12), message=f'{product_name} is not found.')
         actions.perform()
 
 
