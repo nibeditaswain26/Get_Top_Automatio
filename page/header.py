@@ -9,13 +9,16 @@ class Header(Page):
     IPHONE_DROP_DOWN = (By.CSS_SELECTOR, 'a[href="#"]')
     ACCESSORIES_BTN = (By.ID, 'menu-item-472')
     ACCESSORIES_DROP_DOWN = (By.CSS_SELECTOR, 'a[href="https://gettop.us/product-category/accessories/airpods/"]')
+    IPAD_BTN = (By.ID, 'menu-item-470')
+    IPAD_DROP_DOWN = (By.CSS_SELECTOR, '#menu-item-470 li')
+
 
     def hover_over_to_header_btn(self, button_name):
 
-        btn_name = self.driver.find_element(*self.IPHONE_BTN)
+        btn_name = self.driver.find_element(*self.IPAD_BTN)
         actions = ActionChains(self.driver)
         actions.move_to_element(btn_name)
-        self.wait.until(EC.presence_of_element_located(self.IPHONE_DROP_DOWN), message=f'{button_name} not found.')
+        self.wait.until(EC.presence_of_element_located(self.IPAD_DROP_DOWN), message=f'{button_name} not found.')
         actions.perform()
 
 
