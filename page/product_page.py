@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class ProductPage(Page):
     ipad_mini_left_right_arrow = (By.CSS_SELECTOR, 'ul[class="next-prev-thumbs is-small nav-right text-right"] li')
     IPAD_DROP_DOWN = (By.CSS_SELECTOR, '#menu-item-470 li')
+    USER_RATTING = (By.CSS_SELECTOR, '.woocommerce-product-rating')
 
     def verify_product_page(self, product_page):
         self.verify_url_contains_query(product_page)
@@ -27,3 +28,6 @@ class ProductPage(Page):
         actual_arrow_count = len(self.find_elements(*self.ipad_mini_left_right_arrow))
         assert actual_arrow_count == expected_arrow_count, f'Expected {expected_arrow_count} ' \
                                                                    f'but got {actual_arrow_count} arrow count'
+
+    def verify_user_ratting(self):
+        self.find_element(*self.USER_RATTING)
