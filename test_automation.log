@@ -1,0 +1,415 @@
+2022-05-09 11:29:29,746 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:29:29,746 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:29:29,794 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:29:30,572 - support.logger - INFO - Searching by css selector '.cart-empty.woocommerce-info'...
+2022-05-09 11:29:30,588 - support.logger - INFO - Found by css selector '.cart-empty.woocommerce-info'
+2022-05-09 11:32:04,119 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:32:04,119 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:32:04,154 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:32:04,439 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:32:04,449 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:32:04,469 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:04,489 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:04,489 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:04,499 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:06,339 - support.logger - INFO - Searching by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'...
+2022-05-09 11:32:06,355 - support.logger - INFO - Found by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'
+2022-05-09 11:32:12,960 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:32:12,969 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:32:12,989 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:32:13,280 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:32:13,297 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:32:13,319 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:13,339 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:13,339 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:13,354 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:15,240 - support.logger - INFO - Searching by css selector '.woocommerce-product-rating'...
+2022-05-09 11:32:25,339 - support.logger - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce-product-rating"}
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F4528+1066280]
+	Ordinal0 [0x00520FD4+1249236]
+	Ordinal0 [0x005211CB+1249739]
+	Ordinal0 [0x0054D812+1431570]
+	Ordinal0 [0x0053BA34+1358388]
+	Ordinal0 [0x0054BAF2+1424114]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:32:34,528 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:32:34,528 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:32:34,581 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:32:34,910 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:32:34,930 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:32:34,978 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:35,010 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:35,010 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:35,030 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:36,880 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:32:36,919 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:32:37,829 - support.logger - INFO - Searching by css selector 'p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]'...
+2022-05-09 11:32:37,890 - support.logger - INFO - Found by css selector 'p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]'
+2022-05-09 11:32:37,919 - support.logger - INFO - Searching by css selector 'span[class="cart-price"] span[class="woocommerce-Price-amount amount"]'...
+2022-05-09 11:32:37,939 - support.logger - INFO - Found by css selector 'span[class="cart-price"] span[class="woocommerce-Price-amount amount"]'
+2022-05-09 11:32:37,959 - support.logger - INFO - Searching by css selector 'a[class="header-cart-link is-small"] strong'...
+2022-05-09 11:32:37,979 - support.logger - INFO - Found by css selector 'a[class="header-cart-link is-small"] strong'
+2022-05-09 11:32:45,250 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:32:45,250 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:32:45,270 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:32:45,560 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:32:45,579 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:32:45,600 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:45,617 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:45,617 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:45,633 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:47,569 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:32:47,589 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:32:48,359 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:32:48,409 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:32:48,689 - support.logger - INFO - Searching by css selector 'p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]'...
+2022-05-09 11:32:48,730 - support.logger - INFO - Found by css selector 'p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]'
+2022-05-09 11:32:48,779 - support.logger - INFO - Searching by css selector 'span[class="cart-price"] span[class="woocommerce-Price-amount amount"]'...
+2022-05-09 11:32:48,810 - support.logger - INFO - Found by css selector 'span[class="cart-price"] span[class="woocommerce-Price-amount amount"]'
+2022-05-09 11:32:48,849 - support.logger - INFO - Searching by css selector 'h1[class="product-title product_title entry-title"]'...
+2022-05-09 11:32:48,879 - support.logger - INFO - Found by css selector 'h1[class="product-title product_title entry-title"]'
+2022-05-09 11:32:48,909 - support.logger - INFO - Searching by xpath '//div[contains(@class,"flex-col hide-for-medium flex-right")]//a[contains(@href,"https://gettop.us/product/macbook-pro-13/")]'...
+2022-05-09 11:32:48,950 - support.logger - INFO - Found by xpath '//div[contains(@class,"flex-col hide-for-medium flex-right")]//a[contains(@href,"https://gettop.us/product/macbook-pro-13/")]'
+2022-05-09 11:32:48,989 - support.logger - INFO - Searching by css selector 'li[class="html widget_shopping_cart"] a[class="button wc-forward"]'...
+2022-05-09 11:32:49,009 - support.logger - INFO - Found by css selector 'li[class="html widget_shopping_cart"] a[class="button wc-forward"]'
+2022-05-09 11:32:57,379 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:32:57,387 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:32:57,403 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:32:57,689 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:32:57,709 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:32:57,729 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:57,749 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:57,749 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:32:57,764 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:32:59,869 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:32:59,899 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:33:00,760 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:33:00,779 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:33:01,079 - support.logger - INFO - Searching by css selector 'li[class="html widget_shopping_cart"] a[class="button checkout wc-forward"]'...
+2022-05-09 11:33:01,109 - support.logger - INFO - Found by css selector 'li[class="html widget_shopping_cart"] a[class="button checkout wc-forward"]'
+2022-05-09 11:33:09,260 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:33:09,264 - support.logger - INFO - Searching by id 'menu-item-468'...
+2022-05-09 11:33:09,289 - support.logger - INFO - Found by id 'menu-item-468'
+2022-05-09 11:33:09,579 - support.logger - INFO - Searching by css selector '#menu-item-468 li'...
+2022-05-09 11:33:09,598 - support.logger - INFO - Found by css selector '#menu-item-468 li'
+2022-05-09 11:33:09,619 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:33:09,639 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:33:09,639 - support.logger - INFO - Searching by id 'menu-item-389'...
+2022-05-09 11:33:09,649 - support.logger - INFO - Found by id 'menu-item-389'
+2022-05-09 11:33:11,567 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:33:11,575 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:33:12,319 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:33:12,369 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:33:12,654 - support.logger - INFO - Searching by css selector '.remove.remove_from_cart_button'...
+2022-05-09 11:33:12,699 - support.logger - INFO - Found by css selector '.remove.remove_from_cart_button'
+2022-05-09 11:33:12,849 - support.logger - INFO - Searching by css selector 'li[class="html widget_shopping_cart"] p'...
+2022-05-09 11:33:12,879 - support.logger - INFO - Found by css selector 'li[class="html widget_shopping_cart"] p'
+2022-05-09 11:44:30,188 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:44:30,188 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:44:30,243 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:44:31,137 - support.logger - INFO - Searching by css selector '.cart-empty.woocommerce-info'...
+2022-05-09 11:44:31,147 - support.logger - INFO - Found by css selector '.cart-empty.woocommerce-info'
+2022-05-09 11:44:37,648 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:44:37,648 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:44:37,667 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:44:37,958 - support.logger - INFO - Searching by css selector 'li.html.widget_shopping_cart'...
+2022-05-09 11:44:37,988 - support.logger - INFO - Found by css selector 'li.html.widget_shopping_cart'
+2022-05-09 11:45:59,267 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:45:59,267 - support.logger - INFO - Searching by xpath '//div[@class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal flickity-enabled is-draggable"]//button[@aria-label="Next"]//*[name()="svg"]'...
+2022-05-09 11:45:59,297 - support.logger - INFO - Found by xpath '//div[@class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal flickity-enabled is-draggable"]//button[@aria-label="Next"]//*[name()="svg"]'
+2022-05-09 11:46:01,368 - support.logger - INFO - Searching by xpath '//div[@class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal flickity-enabled is-draggable"]//button[@aria-label="Previous"]//*[name()="svg"]'...
+2022-05-09 11:46:01,408 - support.logger - INFO - Found by xpath '//div[@class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal flickity-enabled is-draggable"]//button[@aria-label="Previous"]//*[name()="svg"]'
+2022-05-09 11:46:03,537 - support.logger - INFO - Searching by css selector '.fill.banner-link'...
+2022-05-09 11:46:03,568 - support.logger - INFO - Found by css selector '.fill.banner-link'
+2022-05-09 11:46:03,618 - support.logger - INFO - Searching by css selector '.flickity-page-dots li'...
+2022-05-09 11:46:03,637 - support.logger - INFO - Found by css selector '.flickity-page-dots li'
+2022-05-09 11:46:05,707 - support.logger - INFO - Searching by css selector '.fill.banner-link'...
+2022-05-09 11:46:05,707 - support.logger - INFO - Found by css selector '.fill.banner-link'
+2022-05-09 11:46:07,756 - support.logger - INFO - Searching by css selector '.fill.banner-link'...
+2022-05-09 11:46:07,762 - support.logger - INFO - Found by css selector '.fill.banner-link'
+2022-05-09 11:46:07,762 - support.logger - INFO - Searching by css selector 'div[class="banner-layers container"] a[href="/product-category/macbook/"]'...
+2022-05-09 11:46:07,777 - support.logger - INFO - Found by css selector 'div[class="banner-layers container"] a[href="/product-category/macbook/"]'
+2022-05-09 11:46:08,882 - support.logger - ERROR - Message: element click intercepted: Element <a class="fill" href="/product-category/macbook/">...</a> is not clickable at point (538, 229). Other element would receive the click: <div id="text-box-911234508" class="text-box banner-layer x50 md-x50 lg-x0 y90 md-y90 lg-y75 res-text">...</div>
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F4528+1066280]
+	Ordinal0 [0x00527621+1275425]
+	Ordinal0 [0x00525657+1267287]
+	Ordinal0 [0x0052333B+1258299]
+	Ordinal0 [0x0052207D+1253501]
+	Ordinal0 [0x00517AB3+1211059]
+	Ordinal0 [0x0053B9EC+1358316]
+	Ordinal0 [0x00517474+1209460]
+	Ordinal0 [0x0053BC04+1358852]
+	Ordinal0 [0x0054BAF2+1424114]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:49:39,514 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:49:39,514 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:49:39,547 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:49:39,827 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:49:39,844 - support.logger - INFO - Found by css selector '#menu-item-470 li'
+2022-05-09 11:49:39,863 - support.logger - INFO - Searching by id 'menu-item-388'...
+2022-05-09 11:49:39,877 - support.logger - INFO - Found by id 'menu-item-388'
+2022-05-09 11:49:39,877 - support.logger - INFO - Searching by id 'menu-item-388'...
+2022-05-09 11:49:39,887 - support.logger - INFO - Found by id 'menu-item-388'
+2022-05-09 11:49:41,486 - support.logger - INFO - Searching by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'...
+2022-05-09 11:49:41,542 - support.logger - INFO - Found by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'
+2022-05-09 11:51:03,047 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:51:03,052 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:51:03,102 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:51:03,412 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:51:03,436 - support.logger - INFO - Found by css selector '#menu-item-470 li'
+2022-05-09 11:51:03,466 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:03,497 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:03,497 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:03,516 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:05,287 - support.logger - INFO - Searching by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'...
+2022-05-09 11:51:05,327 - support.logger - INFO - Found by css selector 'ul[class="next-prev-thumbs is-small nav-right text-right"] li'
+2022-05-09 11:51:12,386 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:51:12,394 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:51:12,426 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:51:12,726 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:51:12,736 - support.logger - INFO - Found by css selector '#menu-item-470 li'
+2022-05-09 11:51:12,766 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:12,776 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:12,776 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:12,794 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:14,497 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:51:14,516 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:51:15,266 - support.logger - INFO - Searching by css selector 'p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]'...
+2022-05-09 11:51:25,301 - support.logger - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"p[class="price product-page-price price-on-sale"] ins span[class="woocommerce-Price-amount amount"]"}
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F4528+1066280]
+	Ordinal0 [0x00520FD4+1249236]
+	Ordinal0 [0x005211CB+1249739]
+	Ordinal0 [0x0054D812+1431570]
+	Ordinal0 [0x0053BA34+1358388]
+	Ordinal0 [0x0054BAF2+1424114]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:51:32,126 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:51:32,126 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:51:32,146 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:51:32,446 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:51:32,451 - support.logger - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F4528+1066280]
+	Ordinal0 [0x004DC640+968256]
+	Ordinal0 [0x0053E259+1368665]
+	Ordinal0 [0x0054B292+1421970]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:51:32,546 - support.logger - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F4528+1066280]
+	Ordinal0 [0x004DC640+968256]
+	Ordinal0 [0x0053E259+1368665]
+	Ordinal0 [0x0054B292+1421970]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:51:36,836 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:51:36,846 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:51:36,891 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:51:37,177 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:51:37,202 - support.logger - INFO - Found by css selector '#menu-item-470 li'
+2022-05-09 11:51:37,237 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:37,254 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:37,254 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:37,276 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:37,816 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:37,841 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:38,377 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:38,404 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:51:39,034 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:51:51,157 - support.logger - ERROR - Message: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F43F0+1065968]
+	Ordinal0 [0x004E87C2+1017794]
+	Ordinal0 [0x004E8FF8+1019896]
+	Ordinal0 [0x004EA892+1026194]
+	Ordinal0 [0x004E4219+999961]
+	Ordinal0 [0x004F5860+1071200]
+	Ordinal0 [0x0054B2D2+1422034]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:52:03,326 - support.logger - ERROR - Message: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00669943+2595139]
+	Ordinal0 [0x005FC9F1+2148849]
+	Ordinal0 [0x004F43F0+1065968]
+	Ordinal0 [0x004E87C2+1017794]
+	Ordinal0 [0x004E8FF8+1019896]
+	Ordinal0 [0x004EA892+1026194]
+	Ordinal0 [0x004E4219+999961]
+	Ordinal0 [0x004F5860+1071200]
+	Ordinal0 [0x0054B2D2+1422034]
+	Ordinal0 [0x0053B806+1357830]
+	Ordinal0 [0x00516086+1204358]
+	Ordinal0 [0x00516F96+1208214]
+	GetHandleVerifier [0x0080B232+1658114]
+	GetHandleVerifier [0x008C312C+2411516]
+	GetHandleVerifier [0x006FF261+560433]
+	GetHandleVerifier [0x006FE366+556598]
+	Ordinal0 [0x0060286B+2173035]
+	Ordinal0 [0x006075F8+2192888]
+	Ordinal0 [0x006076E5+2193125]
+	Ordinal0 [0x006111FC+2232828]
+	BaseThreadInitThunk [0x7633FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77407A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77407A4E+238]
+
+2022-05-09 11:52:07,396 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 11:52:07,396 - support.logger - INFO - Searching by id 'menu-item-470'...
+2022-05-09 11:52:07,427 - support.logger - INFO - Found by id 'menu-item-470'
+2022-05-09 11:52:07,706 - support.logger - INFO - Searching by css selector '#menu-item-470 li'...
+2022-05-09 11:52:07,722 - support.logger - INFO - Found by css selector '#menu-item-470 li'
+2022-05-09 11:52:07,746 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:52:07,754 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:52:07,754 - support.logger - INFO - Searching by id 'menu-item-390'...
+2022-05-09 11:52:07,762 - support.logger - INFO - Found by id 'menu-item-390'
+2022-05-09 11:52:09,467 - support.logger - INFO - Searching by css selector '.single_add_to_cart_button.button'...
+2022-05-09 11:52:09,496 - support.logger - INFO - Found by css selector '.single_add_to_cart_button.button'
+2022-05-09 11:52:10,306 - support.logger - INFO - Searching by css selector '.cart-icon.image-icon'...
+2022-05-09 11:52:10,326 - support.logger - INFO - Found by css selector '.cart-icon.image-icon'
+2022-05-09 11:52:10,616 - support.logger - INFO - Searching by css selector '.remove.remove_from_cart_button'...
+2022-05-09 11:52:10,666 - support.logger - INFO - Found by css selector '.remove.remove_from_cart_button'
+2022-05-09 11:52:10,747 - support.logger - INFO - Searching by css selector 'li[class="html widget_shopping_cart"] p'...
+2022-05-09 11:52:10,766 - support.logger - INFO - Found by css selector 'li[class="html widget_shopping_cart"] p'
+2022-05-09 12:09:45,475 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 12:12:38,385 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 12:14:02,552 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 12:16:46,153 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:45:27,159 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:46:14,903 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:48:46,374 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:49:42,350 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:54:41,744 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:55:40,074 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 15:56:33,737 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:02:26,892 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:13:07,240 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:15:19,008 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:19:07,123 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:20:49,589 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:24:41,276 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:26:20,756 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:27:29,459 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:29:28,701 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:29:41,005 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:39:54,202 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:41:30,125 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:42:11,788 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:42:36,698 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:44:23,460 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:45:08,347 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:45:18,165 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:47:18,244 - support.logger - INFO - Opening https://gettop.us/
+2022-05-09 16:47:48,545 - support.logger - INFO - Opening https://gettop.us/

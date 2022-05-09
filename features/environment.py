@@ -17,14 +17,16 @@ def browser_init(context, test_name):
     :param context: Behave context
     :param test_name: scenario.name
     """
-    context.driver = webdriver.Chrome()
+    # context.driver = webdriver.Chrome()
     # context.driver = webdriver.PhantomJS()
-    # context.driver = webdriver.Firefox(executable_path='C:\Automation_study\python-selenium-automation\geckodriver.exe')
+    # context.driver = webdriver.Firefox(executable_path='C:\Automation_study\Get_Top_Automation\geckodriver.exe')
 
     ## HEADLESS MODE ####
     # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # context.driver = webdriver.Chrome(chrome_options=options)
+    # options.add_argument("--window-size=1920,1080")
+    # options.add_argument("--start-maximized")
+    # options.add_argument("--headless")
+    # context.driver = webdriver.Chrome(chrome_options=options, executable_path='C:\Automation_study\Get_Top_Automation\chromedriver.exe')
 
     ### EventFiringWebDriver - log file ###
     ### for drivers ###
@@ -33,6 +35,7 @@ def browser_init(context, test_name):
     # context.driver = EventFiringWebDriver(webdriver.Chrome(chrome_options = options), MyListener())
 
     ### for browerstack ###
+    # for windows
     """
     desired_cap = {
         'browser': 'Chrome',
@@ -40,9 +43,18 @@ def browser_init(context, test_name):
         'os': 'Windows',
         'name': test_name
     }
+    """
+
+    # for mac
+    desired_cap = {
+        'browser': 'Safari',
+        'os_version': 'Big Sur',
+        'os': 'OS X',
+        'name': test_name
+    }
     url = f'https://{bs_user}:{bs_pw}@hub-cloud.browserstack.com/wd/hub'
     context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
-    """
+
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)
     context.driver.wait = WebDriverWait(context.driver, 10)

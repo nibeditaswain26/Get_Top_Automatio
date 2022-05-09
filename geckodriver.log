@@ -1,0 +1,29 @@
+1651684048788	geckodriver	INFO	Listening on 127.0.0.1:61034
+1651684051967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61035" "-no-remote" "-profile" "C:\\Users\\rima\\AppData\\Local\\Temp\\rust_mozprofilemcCqVa"
+1651684058240	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\rima\\AppData\\Local\\Temp\\rust_mozprofilemcCqVa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61035/devtools/browser/1029b9c7-62ce-4486-ab91-34d9df369bf0
+1651684071802	Marionette	INFO	Listening on port 61042
+1651684072056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://gettop.us"
+1651684079176	Marionette	INFO	Stopped listening on port 61042
+[Parent 6204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1651684201621	geckodriver	INFO	Listening on 127.0.0.1:61183
+1651684204709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61184" "-no-remote" "-profile" "C:\\Users\\rima\\AppData\\Local\\Temp\\rust_mozprofileHDdq4X"
+1651684206087	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\rima\\AppData\\Local\\Temp\\rust_mozprofileHDdq4X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61184/devtools/browser/3c45540a-315f-43c0-b30e-eb307d20365a
+1651684209553	Marionette	INFO	Listening on port 61191
+1651684209683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://gettop.us"
+1651684213630	Marionette	INFO	Stopped listening on port 61191
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\rima\AppData\Local\Temp\rust_mozprofileHDdq4X\protections.sqlite
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
